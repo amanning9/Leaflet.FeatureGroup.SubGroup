@@ -105,7 +105,7 @@ exports.build = function (callback, metaData, compsBase32, buildName) {
             file: srcFilename,
             includeContent: true,
             hires: false
-        }));
+        }).toString());
         console.log("\tSaved to " + srcPath);
     }
 
